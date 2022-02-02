@@ -257,12 +257,12 @@ body {
   flex-wrap: wrap;
 }
 
-.benefits-text__element {
+.benefits-text-element {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
 
-.benefits-text__element:nth-child(4n) {
+.benefits-text-element:nth-child(4n) {
   margin: 0;
 }
 
@@ -595,10 +595,9 @@ h3 {
 }
 
 .footer-elements {
-  top: 72px;
+  padding-top: 72px;
   position: relative;
   margin-left: 93px;
-  position: relative;
 }
 
 .footer-elements__title {
